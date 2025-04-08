@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 import allure
 
-class BuyOnStorePage():
+class BuyInStorePage():
     allure.step("Открытие сайта магазина")
     def __init__(self, driver):
         self._driver = driver
