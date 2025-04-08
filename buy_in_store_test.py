@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
-from pages.BuyOnStorePage import BuyOnStorePage
+from pages.Buy_In_Store_Page.py import BuyInStorePage
 import allure
 
 @allure.title("Заказ в интернет-магазине ")
